@@ -19,22 +19,6 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        mi_bottom=findViewById(R.id.bottomnav)
-
-        mi_bottom.setOnItemSelectedListener { menuItem->
-            when(menuItem.itemId){
-                R.id.home->{
-
-
-
-                }
-            }
-
-            true
-
-
-
-        }
 
 
 
